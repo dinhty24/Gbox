@@ -1,0 +1,96 @@
+.rental .container {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+.rental .container .contaier__left {
+  height: 599px;
+  background-color: #171717;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.rental .container .contaier__left .studio-01 {
+  width: 100px;
+  height: 100px;
+  font-family: "DINCondensedBold";
+  text-align: center;
+  background-color: #ffde00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rental .container .contaier__left .studio-01 .pstudio {
+  text-transform: uppercase;
+}
+.rental .container .contaier__left .studio-01 .p-01 {
+  font-size: 62px;
+}
+.rental .container .contaier__left .title__rental {
+  font-family: "ProxiamNovaExtrabld";
+  font-size: 30px;
+  line-height: 25px;
+  color: #b4b4b4;
+  margin-top: 20px;
+}
+.rental .container .contaier__left .pdimensions {
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  line-height: 25px;
+  color: #b4b4b4;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.rental .container .contaier__left .psize {
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  line-height: 25px;
+  color: #b4b4b4;
+  padding-top: 20px;
+}
+
+.container .container__right {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.container .container__right .hcompany__detail {
+  margin-bottom: 30px;
+}
+.container .container__right form .company__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 80%;
+}
+.container .container__right form .company__form .company__left {
+  margin-right: 30px;
+}
+.container .container__right form .company__form .company__left .company__form-detail {
+  padding-bottom: 20px;
+}
+.container .container__right form .company__form .company__right .company__form-detail {
+  padding-bottom: 20px;
+}
+.container .container__right form .company__form .company__right .company__address-detail #address {
+  margin-top: 26px;
+  border-bottom: none;
+  border: 1px solid #000;
+  resize: none;
+}
+
+.rental .booking__detail .company__tick {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rental .booking__detail .company__tick .tick {
+  width: 40px;
+  height: 40px;
+  color: #b4b4b4;
+  background-color: #111111;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.rental .booking__detail .company__tick .tick.active {
+  color: #171717;
+  background-color: #ffde00;
+}/*# sourceMappingURL=rental.css.map */

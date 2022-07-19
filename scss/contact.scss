@@ -1,0 +1,55 @@
+.contact {
+    background-color: #141414;
+    .container__contact {
+        height: 460px;
+
+        display: flex;
+        position: relative;
+        justify-content: center;
+        > img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .container__text {
+            position: absolute;
+            padding-top: 80px;
+
+            .container__logo {
+                text-align: center;
+                padding-right: 30px;
+
+                img {
+                    width: auto;
+                    height: auto;
+                }
+            }
+            .container__text-detail {
+                display: flex;
+                flex-direction: row;
+                justify-content: right;
+                padding-top: 30px;
+
+                .pandress {
+                    text-align: right;
+                    // padding-right: 0px;
+                    font-family: "ProximaNovaRegular";
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    line-height: 25px;
+                    color: #f1f1f1;
+                }
+
+                .pemail {
+                    padding-left: 40px;
+                    font-family: "ProximaNovaRegular";
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    line-height: 25px;
+                    color: #f1f1f1;
+                }
+            }
+        }
+    }
+}

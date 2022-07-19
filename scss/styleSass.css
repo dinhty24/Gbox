@@ -1,0 +1,397 @@
+.box__studio {
+  height: 550px;
+  padding: 0 70px;
+  background-color: #242424;
+}
+.box__studio .title__gbox {
+  font-family: "ProximaNovaBold";
+  font-size: 26px;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 12px;
+  color: #ffde00;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+.box__studio .text__studio {
+  font-family: "ProximaNovaLight";
+  font-size: 13px;
+  line-height: 35px;
+  color: #e4e4e4;
+}
+.box__studio .btn__text {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.box__studio .btn__text .btn__book-now {
+  width: 80px;
+  height: 80px;
+  background-color: #ffde00;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "ProxiamNovaExtrabld";
+  font-size: 17px;
+  color: #171716;
+  line-height: 23px;
+  border-radius: 10%;
+}
+.box__studio .btn__text .ptext {
+  font-family: "ProximaNovaRegular";
+  font-size: 10px;
+  line-height: 15px;
+  color: #e4e4e4;
+  padding-left: 20px;
+}
+
+.contact {
+  background-color: #141414;
+}
+.contact .container__contact {
+  height: 460px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.contact .container__contact > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contact .container__contact .container__text {
+  position: absolute;
+  padding-top: 80px;
+}
+.contact .container__contact .container__text .container__logo {
+  text-align: center;
+  padding-right: 30px;
+}
+.contact .container__contact .container__text .container__logo img {
+  width: auto;
+  height: auto;
+}
+.contact .container__contact .container__text .container__text-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-top: 30px;
+}
+.contact .container__contact .container__text .container__text-detail .pandress {
+  text-align: right;
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: #f1f1f1;
+}
+.contact .container__contact .container__text .container__text-detail .pemail {
+  padding-left: 40px;
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: #f1f1f1;
+}
+
+.rental .container {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+.rental .container .contaier__left {
+  height: 599px;
+  background-color: #171717;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.rental .container .contaier__left .studio-01 {
+  width: 100px;
+  height: 100px;
+  font-family: "DINCondensedBold";
+  text-align: center;
+  background-color: #ffde00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rental .container .contaier__left .studio-01 .pstudio {
+  text-transform: uppercase;
+}
+.rental .container .contaier__left .studio-01 .p-01 {
+  font-size: 62px;
+}
+.rental .container .contaier__left .title__rental {
+  font-family: "ProxiamNovaExtrabld";
+  font-size: 30px;
+  line-height: 25px;
+  color: #b4b4b4;
+  margin-top: 20px;
+}
+.rental .container .contaier__left .pdimensions {
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  line-height: 25px;
+  color: #b4b4b4;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.rental .container .contaier__left .psize {
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  line-height: 25px;
+  color: #b4b4b4;
+  padding-top: 20px;
+}
+
+.container .container__right {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.container .container__right .hcompany__detail {
+  margin-bottom: 30px;
+}
+.container .container__right form .company__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 80%;
+}
+.container .container__right form .company__form .company__left {
+  margin-right: 30px;
+}
+.container .container__right form .company__form .company__left .company__form-detail {
+  padding-bottom: 20px;
+}
+.container .container__right form .company__form .company__right .company__form-detail {
+  padding-bottom: 20px;
+}
+.container .container__right form .company__form .company__right .company__address-detail #address {
+  margin-top: 26px;
+  border-bottom: none;
+  border: 1px solid #000;
+  resize: none;
+}
+
+.rental .booking__detail .company__tick {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rental .booking__detail .company__tick .tick {
+  width: 40px;
+  height: 40px;
+  color: #b4b4b4;
+  background-color: #111111;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.rental .booking__detail .company__tick .tick.active {
+  color: #171717;
+  background-color: #ffde00;
+}
+
+.container__cafe {
+  width: 100%;
+  height: 370px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.container__cafe .background__cafe {
+  height: 100%;
+}
+.container__cafe .background__cafe img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container__cafe .container__cafe-text {
+  text-align: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.container__cafe .container__cafe-text .welcome {
+  width: 90px;
+  align-self: center;
+  font-family: "ProximaNovaLight";
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ecce02;
+  padding-bottom: 30px;
+}
+.container__cafe .container__cafe-text .gbox {
+  font-family: "ProximaNovaBold";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #ecce02;
+  padding-bottom: 30px;
+}
+.container__cafe .container__cafe-text .text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #ebebeb;
+  line-height: 22px;
+  padding-bottom: 45px;
+}
+.container__cafe .container__cafe-text .gallery {
+  font-family: "ProximaNovaLight";
+  font-size: 14px;
+  line-height: 22px;
+  color: #ebebeb;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.container__cafe .container__cafe-text .gallery::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 1px;
+  background-color: #ecce02;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.section__gallery {
+  background-color: #000;
+  padding-bottom: 100px;
+}
+.section__gallery .container .wrapper__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.section__gallery .container .wrapper__grid .img {
+  overflow: hidden;
+}
+.section__gallery .container .wrapper__grid img {
+  transform: scale(1);
+  transition: 0.2s;
+}
+.section__gallery .container .wrapper__grid img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.section__gallery .container .wrapper__grid .img:nth-child(1) {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.section__gallery .container .wrapper__grid .img:nth-child(1) > img {
+  height: 100%;
+}
+.section__gallery .container .wrapper__grid .img:nth-child(2) {
+  grid-column: 2/4;
+}
+.section__gallery .container .wrapper__grid .img:nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.career {
+  padding-top: 60px;
+  text-align: center;
+}
+.career::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1px;
+  margin: auto;
+  background-color: #171717;
+}
+.career .career__title {
+  font-family: "ProximaNovaLight";
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 3px;
+  color: #171717;
+}
+.career .career__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #171717;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.header__bg {
+  background-color: #525355;
+  display: flex;
+  padding: 0 60px;
+  height: 70px;
+}
+
+.icon__menu {
+  display: none;
+  align-items: center;
+}
+
+.icon__menu i {
+  font-size: 22px;
+  color: #ffde00;
+}
+
+.menu__mobile {
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  position: fixed;
+  top: 70px;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+}
+.menu__mobile.active {
+  opacity: 1;
+  transition: 0.3s;
+  pointer-events: initial;
+}
+
+.menu__mobile .menu__mobile-list {
+  padding-left: 40px;
+}
+
+.menu__mobile .menu__mobile-list li {
+  padding: 20px 0;
+}
+
+.menu__mobile .menu__mobile-list li a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .icon__menu {
+    display: flex;
+  }
+  .header__menu .wrapper__header {
+    display: none;
+  }
+  .header__menu::after {
+    display: none;
+  }
+  .product__img {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 20px 20px;
+  }
+}/*# sourceMappingURL=styleSass.css.map */

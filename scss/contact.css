@@ -1,0 +1,49 @@
+.contact {
+  background-color: #141414;
+}
+.contact .container__contact {
+  height: 460px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.contact .container__contact > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contact .container__contact .container__text {
+  position: absolute;
+  padding-top: 80px;
+}
+.contact .container__contact .container__text .container__logo {
+  text-align: center;
+  padding-right: 30px;
+}
+.contact .container__contact .container__text .container__logo img {
+  width: auto;
+  height: auto;
+}
+.contact .container__contact .container__text .container__text-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-top: 30px;
+}
+.contact .container__contact .container__text .container__text-detail .pandress {
+  text-align: right;
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: #f1f1f1;
+}
+.contact .container__contact .container__text .container__text-detail .pemail {
+  padding-left: 40px;
+  font-family: "ProximaNovaRegular";
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: #f1f1f1;
+}/*# sourceMappingURL=contact.css.map */

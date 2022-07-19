@@ -1,0 +1,123 @@
+.rental {
+    .container {
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: 3fr 9fr;
+
+        .contaier__left {
+            height: 599px;
+            background-color: #171717;
+            padding-left: 20px;
+            padding-top: 40px;
+            // margin-left: -5px;
+            .studio-01 {
+                width: 100px;
+                height: 100px;
+                font-family: "DINCondensedBold";
+                text-align: center;
+                background-color: #ffde00;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .pstudio {
+                    text-transform: uppercase;
+                }
+                .p-01 {
+                    font-size: 62px;
+                }
+            }
+            .title__rental {
+                font-family: "ProxiamNovaExtrabld";
+                font-size: 30px;
+                line-height: 25px;
+                color: #b4b4b4;
+                margin-top: 20px;
+            }
+            .pdimensions {
+                font-family: "ProximaNovaRegular";
+                font-size: 13px;
+                line-height: 25px;
+                color: #b4b4b4;
+                text-transform: uppercase;
+                padding-top: 20px;
+            }
+            .psize {
+                font-family: "ProximaNovaRegular";
+                font-size: 13px;
+                line-height: 25px;
+                color: #b4b4b4;
+
+                padding-top: 20px;
+            }
+        }
+    }
+}
+.container {
+    .container__right {
+        padding-left: 30px;
+        padding-top: 40px;
+        .hcompany__detail {
+            margin-bottom: 30px;
+        }
+        form {
+            .company__form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                width: 80%;
+                .company__left {
+                    margin-right: 30px;
+                    .company__form-detail {
+                        padding-bottom: 20px;
+                    }
+                }
+                .company__right {
+                    .company__form-detail {
+                        padding-bottom: 20px;
+                    }
+                    .company__address-detail {
+                        // padding-bottom: 20px;
+                        #address {
+                            margin-top: 26px;
+                            border-bottom: none;
+                            border: 1px solid #000;
+                            resize: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// a {
+//     &.active {
+//         color: black;
+//         background: yellow;
+//     }
+// }
+.rental {
+    .booking__detail {
+        .title__booking {
+        }
+        .p__studio {
+        }
+        .company__tick {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .tick {
+                width: 40px;
+                height: 40px;
+                color: #b4b4b4;
+                background-color: #111111;
+                margin-bottom: 10px;
+                cursor: pointer;
+
+                &.active {
+                    color: #171717;
+                    background-color: #ffde00;
+                }
+            }
+        }
+    }
+}
